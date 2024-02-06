@@ -24,7 +24,7 @@ const Portfolio = () => {
                     </a>
                     <span className='s-text'><br />Build a "Blog-Website" allows to add post,
                         <br />
-                        edit existing post and delete them in real time.<br /> Data gets saves in json file.
+                        edit existing post and delete them in real time.<br />Build a backend which saves data.
                         <br/>
                         <strong>Skills :</strong> React Js, Responsive CSS, 
                     </span>
