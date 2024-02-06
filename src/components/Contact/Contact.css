@@ -1,0 +1,76 @@
+.contact {
+    padding: 0 3rem;
+    display: flex;
+    height: 70vh;
+    margin-top: 4rem;
+    font-family: 'times new roman', serif;
+}
+.c-left {
+    display: flex;
+    flex-direction: column;
+}
+.c-left>:nth-child(1) {
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.c-left>:nth-child(2) {
+    color: #1E90FF;
+    font-weight: bold;
+    font-size: 3rem;
+    animation-delay: 1s;
+}
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid #1E90FF;
+    border-radius: 8px;
+    font-size: 16px;
+}
+textarea{
+    height: 4rem!important;
+}
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+.button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #2980b9;
+  }
+}
+@media screen and (max-width: 480px) {
+    .contact {
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 39rem;
+        /* margin-top: 3rem; */
+    }
+    .c-right .user{
+        width: 22rem;
+    }
+}

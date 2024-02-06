@@ -1,0 +1,15 @@
+.resume-me {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.5rem;
+  }
+  
+  .resume-me:hover {
+    background-color: #2980b9;
+  }
