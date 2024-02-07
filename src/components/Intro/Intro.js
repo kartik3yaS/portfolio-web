@@ -1,8 +1,8 @@
 import React from "react";
 import "animate.css";
-import insta from "../../Images/igram_img.png";
-import github from "../../Images/ghub_img.png";
-import linkedin from "../../Images/link_img.png";
+import Insta from '@iconscout/react-unicons/icons/uil-instagram'
+import Github from '@iconscout/react-unicons/icons/uil-github'
+import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
 import me from "../../Images/coder_img.jpg";
 import "./Intro.css";
 
@@ -20,13 +20,16 @@ const Intro = () => {
                 </div>
                 <div className="m-icons">
                     <a href="https://github.com/kartik3yaS" target="_blank">
-                        <img src={github} alt="" />
+                        {/* <img src={github} alt="" /> */}
+                        <Github color="#1E90FF" size="7rem" />
                     </a>
                     <a href="https://www.linkedin.com/in/kartikeya-shukla-63b433250/" target="_blank">
-                        <img src={linkedin} alt="" />
+                        {/* <img src={linkedin} alt="" /> */}
+                        <Linkedin color="#1E90FF" size="7rem" />
                     </a>
                     <a href="https://www.instagram.com/kartikeya.22/?hl=en" target="_blank">
-                        <img src={insta} alt="" />
+                        {/* <img src={insta} alt="" /> */}
+                        <Insta color="#1E90FF" size="7rem" />
                     </a>
                 </div>
             </div>
