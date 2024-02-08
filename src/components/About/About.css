@@ -25,6 +25,7 @@
     color: gray;
     font-size: 14px;
     margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .i-right {
     position: relative;
@@ -40,6 +41,25 @@
     top: 7rem;
     left: 40rem;
 }
+.a-button {
+    background-color: #1E90FF;
+    /* margin-top: 40rem; */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+.a-button:hover {
+    background-color: #2980b9;
+  }
 @media screen and (max-width: 480px) {
     .about{
         margin-top: 8rem;

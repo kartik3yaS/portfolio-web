@@ -1,13 +1,13 @@
 .hire-me {
-    background-color: #3498db;
+    background-color: #1E90FF;
     color: #fff;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 2rem;
+    margin-top: 1.3rem;
   }
   
   .hire-me:hover {

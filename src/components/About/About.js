@@ -2,7 +2,8 @@ import React from "react";
 import Cards from "../Cards/Cards";
 import "./About.css"
 import HireMeButton from "../HireMe/HireMe";
-import Resume from "../Resume/Resume";
+// import Resume from "../Resume/Resume";
+import Resume from "./Kartikeya_resume.pdf";
 
 const Hobbies = () => {
     return(
@@ -16,12 +17,10 @@ const Hobbies = () => {
                     <br /> 
                     Enjoy making projects on web devlopment!
                 </span>
-                {/* <div className="i-resume">
-                    <a href="" target="blank">
-                        <button>Check my CV</button>
-                    </a>
-                </div> */}
-                <Resume />
+                <a href={Resume} target="_blank" rel="noreferrer">
+                    <button className="a-button">Check my CV</button>
+                </a>
+                {/* // <Resume /> */}
                 <HireMeButton />
             </div>
             <div className="i-right">
