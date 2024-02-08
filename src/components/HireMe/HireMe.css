@@ -10,6 +10,9 @@
     margin-top: 1.3rem;
   }
   
-  .hire-me:hover {
-    background-color: #2980b9;
-  }
+.hire-me:hover {
+  background-color: #2980b9;
+}
+.hire-me:active {
+  background-color: #1E90FF;
+}

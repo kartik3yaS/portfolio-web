@@ -60,6 +60,9 @@
 .a-button:hover {
     background-color: #2980b9;
   }
+.a-button:active {
+    background-color: #1E90FF;
+}
 @media screen and (max-width: 480px) {
     .about{
         margin-top: 8rem;
