@@ -3,7 +3,7 @@ import Cards from "../Cards/Cards";
 import "./About.css"
 import HireMeButton from "../HireMe/HireMe";
 // import Resume from "../Resume/Resume";
-import Resume from "./Kartikeya_resume.pdf";
+import Resume from "./Kartikeya_resume1.pdf";
 
 const Hobbies = () => {
     return(

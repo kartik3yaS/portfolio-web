@@ -12,7 +12,7 @@ const Intro = () => {
         <div className="intro" id="intro">
             <div className="m-left">
                 <div className="m-name">
-                    <span className="animate__animated animate__backInLeft">Hi!🙏 I Am,</span>
+                    <span className="animate__animated animate__backInLeft">Hi!👋 I Am,</span>
                     <span className="animate__animated animate__backInLeft">Kartikeya Shukla</span>
                     <span className="animate__animated animate__fadeIn animate__delay-2s animate__slow">
                         Currently a 2nd year UG at IIT KANPUR. A little health concious so i hit Gym regularly. Love to have a cricket match any day. I am currently focused on Frontend devlopment. I also do competitive programming on a regular basis! Gaining knowledge in ML as well!
