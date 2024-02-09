@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-web/static/css/main.e184a4c1.css",
-    "main.js": "/portfolio-web/static/js/main.145578c4.js",
+    "main.js": "/portfolio-web/static/js/main.54f8ff81.js",
     "static/media/boy1.png": "/portfolio-web/static/media/boy1.b9389bd2cccfab1087e9.png",
     "static/media/Kartikeya_resume.pdf": "/portfolio-web/static/media/Kartikeya_resume.67dddfd504acf9b5c2e5.pdf",
     "static/media/blog_img.avif": "/portfolio-web/static/media/blog_img.51eea3861ca083bb31fa.avif",
@@ -10,10 +10,10 @@
     "static/media/to-do_img.avif": "/portfolio-web/static/media/to-do_img.878488d1981f4ee9dbb5.avif",
     "index.html": "/portfolio-web/index.html",
     "main.e184a4c1.css.map": "/portfolio-web/static/css/main.e184a4c1.css.map",
-    "main.145578c4.js.map": "/portfolio-web/static/js/main.145578c4.js.map"
+    "main.54f8ff81.js.map": "/portfolio-web/static/js/main.54f8ff81.js.map"
   },
   "entrypoints": [
     "static/css/main.e184a4c1.css",
-    "static/js/main.145578c4.js"
+    "static/js/main.54f8ff81.js"
   ]
 }
