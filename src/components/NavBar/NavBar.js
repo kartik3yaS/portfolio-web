@@ -7,7 +7,7 @@ const NavBar = () => {
     return(
         <nav className="Nav">
             <div className="n-left">
-                <div className='n-name animate__animated animate__flip animate__slow'>Kartikeya</div>
+                <div className='n-name animate__animated animate__flip animate__slow'>ReactJs Developer</div>
             </div>
             <div className="n-right">
                 <div className="n-items">

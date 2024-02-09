@@ -17,7 +17,7 @@
     font-family: 'times new roman', serif;
     font-size: 2rem;
     font-weight: bold;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 .n-right {
     display: flex;
