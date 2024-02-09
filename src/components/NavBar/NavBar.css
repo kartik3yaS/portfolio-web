@@ -70,4 +70,7 @@
     .n-button {
         display: none;
     }
+    .n-left {
+        margin-left: 3.5rem;
+    }
 }
