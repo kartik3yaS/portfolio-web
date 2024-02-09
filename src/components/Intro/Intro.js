@@ -3,7 +3,8 @@ import "animate.css";
 import Insta from '@iconscout/react-unicons/icons/uil-instagram'
 import Github from '@iconscout/react-unicons/icons/uil-github'
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
-import me from "../../Images/coder_img.jpg";
+// import me from "../../Images/coder_img.jpg";
+import me from "../../Images/boy1.png";
 import "./Intro.css";
 
 const Intro = () => {
@@ -34,7 +35,7 @@ const Intro = () => {
                 </div>
             </div>
             <div className="m-right">
-                <img src={me} alt=""/>
+                <img src={me} className="logo" alt="" />
             </div>
         </div>
         </>

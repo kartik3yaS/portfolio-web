@@ -43,8 +43,10 @@
 .m-icons>*:hover{
     cursor: pointer;
 }
-.m-right {
-    border-radius: 10px 20px 30px;
+.logo {
+    border-radius: 25px;
+    width: 20rem;
+    margin-right: 9rem;
 }
 @media screen and (max-width: 480px){
     .intro{
@@ -55,5 +57,8 @@
     .i-right{
         transform: scale(0.8);
         left: -3rem;
+    }
+    .logo {
+        width: 100%;
     }
 }
