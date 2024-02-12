@@ -18,7 +18,7 @@ const Contact = () => {
         return;
     }  
 
-    emailjs.sendForm('service_4ff45x5', 'template_p8lia46', form.current, 'uwr3rS7oUe7pMq-IM')
+    emailjs.sendForm('service_4ff45x5', 'template_p8lia46', form.current, 'bhMXeIIPm79DMkQXS')
       .then((result) => {
           console.log(result.text);
           form.current.reset();
@@ -39,8 +39,7 @@ const Contact = () => {
                 <input type="text" name="user_name" className="user" placeholder='Name' />
                 <input type="email" name="user_email" className='user' placeholder='Email' />
                 <textarea name="message" className='user' placeholder='Message' />
-                {/* <input type="submit" value="Send" className='button' /> */}
-                <button className='button'>Send</button>
+                <input type="submit" value="Send" className='button' />
                 <span>{done && "Thanks for contacting me!"}</span>
             </form>
         </div>
