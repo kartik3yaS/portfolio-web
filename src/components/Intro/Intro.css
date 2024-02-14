@@ -46,6 +46,7 @@
 .logo {
     border-radius: 25px;
     width: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     margin-right: 9rem;
 }
 @media screen and (max-width: 480px){

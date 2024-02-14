@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import "./NavBar.css";
 import 'animate.css';
-
+    
 const NavBar = () => {
     return(
         <nav className="Nav">
