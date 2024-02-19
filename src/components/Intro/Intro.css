@@ -43,12 +43,56 @@
 .m-icons>*:hover{
     cursor: pointer;
 }
+
+/* .m-right {
+    width: 400px;
+    height: 400px;
+    margin: 1px 0 0 170px;
+    border: 7px solid #ffffff50;
+    float: left;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-image: linear-gradient(45deg, #08aeea, #2af598 100%);
+    animation: morph 8s ease-in-out infinite;
+} */
+/* @keyframes morph {
+    0%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88 90%);
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+} */
+/* .logo {
+    width: 20rem;
+    background: #08aeea50 ;
+    background-size: cover;
+    background-position: top -10px center;
+    background-blend-mode: multiply;
+    animation: morphTwo 8s ease-in-out infinite 1s;
+}
+@keyframes morphTwo {
+    0%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+} */
+
 .logo {
-    border-radius: 25px;
+    border-radius: 55px;
     width: 20rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     margin-right: 9rem;
 }
+
 @media screen and (max-width: 480px){
     .intro{
         flex-direction: column;
@@ -61,5 +105,6 @@
     }
     .logo {
         width: 100%;
+        /* margin-left: -20rem; */
     }
 }
