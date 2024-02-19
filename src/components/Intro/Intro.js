@@ -16,7 +16,7 @@ const Intro = () => {
                     <span className="animate__animated animate__backInLeft">Hi!👋 I Am,</span>
                     <span className="animate__animated animate__backInLeft">Kartikeya Shukla</span>
                     <span className="animate__animated animate__fadeIn animate__delay-2s animate__slow">
-                    Currently a 2nd year undergraduate student at IIT KANPUR. My main area of expertise<br /> revolves around frontend development, particularly with a focus on React.js. I do<br />competitive programming on a regular basis and i also maintain a regular gym routine.<br />I'm also dedicated to expanding my knowledge in machine learning.
+                    Currently a 2nd year undergraduate student at IIT Kanpur. My main area of expertise<br /> revolves around frontend development, particularly with a focus on React.js. I do<br />competitive programming on a regular basis and i also maintain a regular gym routine.<br />I'm also dedicated to expanding my knowledge in machine learning.
                     </span>
                 </div>
                 <div className="m-icons">
