@@ -21,7 +21,7 @@ const Hobbies = () => {
                     <button className="a-button">Check my CV</button>
                 </a>
                 {/* // <Resume /> */}
-                <HireMeButton />
+                {/* <HireMeButton /> */}
             </div>
             <div className="i-right">
                 <Cards 
