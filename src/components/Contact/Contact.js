@@ -1,50 +1,35 @@
 import React from 'react';
-import { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-import "./Contact.css";
+import './Contact.css';
+import locationIcon from '../../Images/location_icon.jpg';
+import mailIcon from '../../Images/mail_icon.png';
 
 const Contact = () => {
-  const form = useRef();
-  const [done, setDone] =useState(false);
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-    const userName = form.current.user_name.value.trim();
-    const userEmail = form.current.user_email.value.trim();
-    const message = form.current.message.value.trim();
-
-    if (!userName || !userEmail || !message) {
-        console.error("Please fill in all required fields.");
-        return;
-    }  
-
-    emailjs.sendForm('service_4ff45x5', 'template_p8lia46', form.current, 'bhMXeIIPm79DMkQXS')
-      .then((result) => {
-          console.log(result.text);
-          form.current.reset();
-          setDone(true);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
-
-  return (
-    <div className='contact' id='contact'>
-        <div className='c-left'>
-            <span>Get in touch</span>
-            <span>Contact me</span>
+    return (
+        <div className="contact-section" id='contact'>
+            <h2>CONTACT</h2>
+            <p>Don't be shy! Hit me up! <span className="emoji">👇</span></p>
+            <div className="contact-info">
+                <div className="contact-item">
+                    <div className="icon">
+                        <img src={locationIcon} alt="Location Icon" />
+                    </div>
+                    <div className="details">
+                        <h3>Location</h3>
+                        <p>Kanpur, Uttar Pradesh</p>
+                    </div>
+                </div>
+                <div className="contact-item">
+                    <div className="icon">
+                        <img src={mailIcon} alt="Mail Icon" />
+                    </div>
+                    <div className="details">
+                        <h3>Mail</h3>
+                        <p>kartikeyashukla009@gmail.com</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className='c-right'>
-            <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="user_name" className="user" placeholder='Name' />
-                <input type="email" name="user_email" className='user' placeholder='Email' />
-                <textarea name="message" className='user' placeholder='Message' />
-                <input type="submit" value="Send" className='button' />
-                <span>{done && "Thanks for contacting me!"}</span>
-            </form>
-        </div>
-    </div>
-  );
-};
+    );
+}
 
 export default Contact;

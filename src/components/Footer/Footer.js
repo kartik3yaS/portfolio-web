@@ -13,7 +13,7 @@ const Footer = () => {
                     <a href="https://github.com/kartik3yaS" target="_blank">
                         <Github color="white" size="4rem" />
                     </a>
-                    <a href="https://www.instagram.com/kartikeya.22/?hl=en" target="_blank">
+                    <a href="https://www.instagram.com/kartik3ya.22/?hl=en" target="_blank">
                         <Insta color="white" size="4rem" />
                     </a>
                     <a href="https://www.linkedin.com/in/kartikeya-shukla-63b433250/" target="_blank">

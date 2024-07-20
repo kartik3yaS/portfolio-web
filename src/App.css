@@ -3,7 +3,7 @@
   text-align: center;
   overflow: hidden;
   color: black;
-  background-color: #F5F5DC;
+  background-color: white;
 }
 @media screen and (max-width: 480px) {
   .App{
