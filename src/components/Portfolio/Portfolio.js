@@ -41,7 +41,7 @@ const Portfolio = () => {
                     </span>
                 </SwiperSlide>
                 <SwiperSlide className='s-slide'>
-                    <a href="https://github.com/kartik3yaS/To-do_list" target="_blank">
+                    <a href="https://github.com/kartik3yaS/To-do" target="_blank">
                         <img src={to_do} alt="TO-Do_List"/>
                     </a>
                     <span className='s-text'><br />Build a "To Do List" app in react-js, offering task
