@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-web/static/css/main.7d051b28.css",
-    "main.js": "/portfolio-web/static/js/main.01d7c72c.js",
+    "main.js": "/portfolio-web/static/js/main.8fc1eba4.js",
     "static/media/boy1.png": "/portfolio-web/static/media/boy1.b9389bd2cccfab1087e9.png",
     "static/media/KartikeyaShukla_resume.pdf": "/portfolio-web/static/media/KartikeyaShukla_resume.ef3cf57912833c5b0964.pdf",
     "static/media/leetcode.png": "/portfolio-web/static/media/leetcode.d500bb7c08811162a15d.png",
@@ -11,10 +11,10 @@
     "static/media/to-do_img.avif": "/portfolio-web/static/media/to-do_img.878488d1981f4ee9dbb5.avif",
     "index.html": "/portfolio-web/index.html",
     "main.7d051b28.css.map": "/portfolio-web/static/css/main.7d051b28.css.map",
-    "main.01d7c72c.js.map": "/portfolio-web/static/js/main.01d7c72c.js.map"
+    "main.8fc1eba4.js.map": "/portfolio-web/static/js/main.8fc1eba4.js.map"
   },
   "entrypoints": [
     "static/css/main.7d051b28.css",
-    "static/js/main.01d7c72c.js"
+    "static/js/main.8fc1eba4.js"
   ]
 }
