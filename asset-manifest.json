@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-web/static/css/main.aa4b00ae.css",
-    "main.js": "/portfolio-web/static/js/main.7132743d.js",
+    "main.css": "/portfolio-web/static/css/main.7d051b28.css",
+    "main.js": "/portfolio-web/static/js/main.085c3597.js",
     "static/media/boy1.png": "/portfolio-web/static/media/boy1.b9389bd2cccfab1087e9.png",
-    "static/media/KartikeyaShukla_resume.pdf": "/portfolio-web/static/media/KartikeyaShukla_resume.288d6e8af425d6628d9a.pdf",
+    "static/media/KartikeyaShukla_resume.pdf": "/portfolio-web/static/media/KartikeyaShukla_resume.ef3cf57912833c5b0964.pdf",
+    "static/media/leetcode.png": "/portfolio-web/static/media/leetcode.d500bb7c08811162a15d.png",
     "static/media/blog_img.avif": "/portfolio-web/static/media/blog_img.51eea3861ca083bb31fa.avif",
+    "static/media/mail_icon.png": "/portfolio-web/static/media/mail_icon.284d1cc1b59876a0e738.png",
     "static/media/footer_img.png": "/portfolio-web/static/media/footer_img.d93ba48c13a3bce0ef62.png",
-    "static/media/shoplist_img.avif": "/portfolio-web/static/media/shoplist_img.c868594e6bf80aa73760.avif",
     "static/media/to-do_img.avif": "/portfolio-web/static/media/to-do_img.878488d1981f4ee9dbb5.avif",
     "index.html": "/portfolio-web/index.html",
-    "main.aa4b00ae.css.map": "/portfolio-web/static/css/main.aa4b00ae.css.map",
-    "main.7132743d.js.map": "/portfolio-web/static/js/main.7132743d.js.map"
+    "main.7d051b28.css.map": "/portfolio-web/static/css/main.7d051b28.css.map",
+    "main.085c3597.js.map": "/portfolio-web/static/js/main.085c3597.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa4b00ae.css",
-    "static/js/main.7132743d.js"
+    "static/css/main.7d051b28.css",
+    "static/js/main.085c3597.js"
   ]
 }
